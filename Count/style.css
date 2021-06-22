@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 200px;
+    font-size: large;
+}
+.btn{
+    margin-left: 120px;
+    height: 80px;
+    width:200px;
+}
+
+h1, #value{
+    margin-left: 40%;
+    margin-bottom:20px;
+
+}
+#value{
+    font-size: 80px;
+}
