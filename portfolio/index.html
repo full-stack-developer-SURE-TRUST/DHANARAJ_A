@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header-->
+<header>
+    <div class="user">
+        <img src="myphoto.jpg" alt="">
+        <h3 class="name">A DHANARAJ</h3>
+        <p class="post">Full Stack Developer</p>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- home-->
+<div class="container">
+    <section class="home" id="home">
+        <h3 class="name">my name is <span>A DHANARAJ</span></h3>
+        <h3 class="post">i am <span class="typing-text">full stack developer</span></h3>
+
+        <a href="#"><button class="btn">hire me</button></a>
+
+        <div class="share">
+            <a href="https://github.com/dhanaraj5432/" target="_blank" class="fab fa-github"></a>
+            <a href="https://www.linkedin.com/in/dhanaraj-a-53a79317b/" target="_blank" class="fab fa-linkedin"></a>
+            <a href="https://twitter.com/Dhanaraj_A1" target="_blank" class="fab fa-twitter"></a>
+        </div>
+
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <h1 class="heading">about me</h1>
+        <div class="content">
+            <h3 class="name">my name is <span>A DHANARAJ</span></h3>
+            <p>I'm a undergraduate student who likes to build interesting websites and also to improve my skills in the front end technologies like HTML,CSS and Javascript as well as back end technologies like Nodejs.</p>
+        </div>
+
+        <div class="skills">
+            <div class="progress">
+                <h3>html <span>90%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>javascript <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>css <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>nodejs <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- education-->
+    <section class="education" id="education">
+        <h1 class="heading">my education</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="year">2012 - 2016</div>
+                <h3>SSC</h3>
+                <p>Comleted my SSC from Z.P.H.S, D.M.Puram</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2016 - 2018</div>
+                <h3>PUC</h3>
+                <p>Completed my Pre-University Course( Maths,Physics and Chemistry) from RGUKT,R.K.Valley</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2018 - 2022</div>
+                <h3>B.Tech</h3>
+                <p>Completed my B.Tech( CSE ) from RGUKT,R.K.Valley</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact me</h1>
+        <div class="row">
+            <form action="">
+                <input type="text" class="box" placeholder="first name">
+                <input type="text" class="box" placeholder="last name">
+                <input type="email" class="box" placeholder="your email">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <input type="submit" value="Send" class="btn">
+            </form>
+
+            <div class="content">
+                <div class="icons">
+                    <h3><i class="fas fa-map-marker-alt"></i> address </h3>
+                    <p>Tirupati, Andhra Pradesh-517501</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-envelope"></i> email </h3>
+                    <p>dhanaraj5432@gmail.com</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-phone"></i> phone </h3>
+                    <p>+91 9573863580</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="theme-toggler">
+    <span style="background:linear-gradient(deeppink, purple);"></span>
+    <span style="background:linear-gradient(lightgreen, crimson);"></span>
+    <span style="background:linear-gradient(blueviolet, deeppink)"></span>
+    <span style="background:linear-gradient(coral, blueviolet)"></span>
+    <span style="background:linear-gradient(#999, #111)"></span>
+</div>
+
+<!--cdn for typed text animation-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>
